@@ -3,5 +3,6 @@ echo "*********************"
 echo "testing Jar"
 echo "*********************"
 
-docker run --rm -v $PWD/java-app:/app -w /app maven:3-alpine "$@"
+WORKSPACE =/Users/rjaveed/docker-files/images/jenkins/jenkins_data/jenkins_home/workspace/pipeline-maven-docker
+docker run --rm -v $WORKSPACE/java-app:/app -w /app maven:3-alpine "$@"
 
