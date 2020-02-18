@@ -4,7 +4,7 @@ echo " *********** "
 echo "Pushing Image"
 echo " *********** "
 
-IMAGE="maven-project"
+IMAGE="jenkins-pipeline-test"
 
 
 echo "loggin in"
