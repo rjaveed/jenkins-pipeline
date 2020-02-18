@@ -10,6 +10,7 @@ RUN pip install -U ansible
 # Install Docker
 
 RUN apt-get update && \
+apt-get -y install vim $$ \
 apt-get -y install apt-transport-https \
      ca-certificates \
      curl \
